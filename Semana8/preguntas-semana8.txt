@@ -1,1 +1,15 @@
+Pregunta 1:
+Respuesta: B
+Explicación: Un sistema operativo es el software que administra el hardware y permite ejecutar programas.
 
+Pregunta 2:
+Respuesta: A
+Explicación: Ubuntu es un sistema operativo de código abierto basado en Linux.
+
+Pregunta 3:
+Respuesta: B
+Explicación: La terminal en Linux es una interfaz que permite ejecutar comandos directamente en el sistema.
+
+Pregunta 4:
+Respuesta: B
+Explicación: Usar contraseñas fuertes y proteger credenciales es una práctica fundamental de seguridad digital.

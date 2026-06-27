@@ -1,0 +1,26 @@
+Prácticas de Seguridad para Plataformas Digitales Comunitarias
+
+1. No exponer datos personales
+   - Limitar la información visible del perfil de usuario
+   - No mostrar direcciones, números telefónicos ni datos sensibles
+   - Cumplir con regulaciones de privacidad (GDPR, CCPA, etc.)
+
+2. Proteger credenciales
+   - Usar hash para almacenar contraseñas (nunca en texto plano)
+   - Implementar autenticación de dos factores (2FA)
+   - Exigir contraseñas fuertes con requisitos mínimos
+
+3. Usar conexiones seguras
+   - Implementar HTTPS en toda la plataforma
+   - Usar certificados SSL/TLS válidos
+   - Cifrar datos en tránsito entre cliente y servidor
+
+4. Registrar accesos
+   - Mantener logs de login y actividades importantes
+   - Monitorear intentos fallidos de acceso
+   - Detectar patrones anormales de comportamiento
+
+5. Limitar acceso a información sensible
+   - Implementar control de acceso basado en roles (RBAC)
+   - Validar permisos en cada operación
+   - Aplicar principio de menor privilegio

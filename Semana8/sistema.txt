@@ -1,0 +1,22 @@
+Comandos del Sistema
+
+Comando: uname -a
+Información que muestra:
+- Nombre del sistema operativo (kernel name)
+- Nombre del host (hostname)
+- Versión del kernel
+- Arquitectura del procesador
+- Información sobre el hardware
+
+Comando: whoami
+Información que muestra:
+- El nombre del usuario actual logueado en la sesión
+- Útil para verificar con qué cuenta estás trabajando
+
+Por qué es útil conocer información del sistema:
+Cuando administras un servidor es importante conocer:
+1. La versión del sistema operativo para saber qué actualizaciones aplicar
+2. La arquitectura del hardware para instalar software compatible
+3. El usuario actual para verificar permisos y seguridad
+4. Información del kernel para diagnosticar problemas
+5. Detalles técnicos para planeación de capacidad y mantenimiento

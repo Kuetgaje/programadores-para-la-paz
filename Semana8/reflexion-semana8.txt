@@ -1,0 +1,9 @@
+Reflexión: Importancia de la Seguridad Digital en Plataformas Comunitarias
+
+La seguridad digital es fundamental para proteger plataformas tecnológicas que usan comunidades o procesos participativos porque estas plataformas manejan información sensible de muchas personas. Cuando una comunidad participa en una plataforma digital, comparte datos personales, opiniones y potencialmente información financiera o de identidad que debe estar protegida.
+
+Si la seguridad no es robusta, los ciberdelincuentes pueden acceder a estos datos y usarlos para fraude, suplantación de identidad o robo de información. Además, un ataque de seguridad puede socavar la confianza que la comunidad tiene en la plataforma, causando que los usuarios abandonen el proyecto.
+
+En plataformas participativas, la seguridad también protege la integridad de los procesos democráticos y colaborativos. Si alguien puede hackear la plataforma para manipular votos, comentarios o resultados, todo el valor de la participación comunitaria se pierde.
+
+Por estas razones, implementar medidas de seguridad como contraseñas fuertes, cifrado de datos, autenticación segura y monitoreo de accesos es esencial para que las plataformas comunitarias puedan funcionar con confianza y proteger tanto a los usuarios como al propósito de la comunidad.
