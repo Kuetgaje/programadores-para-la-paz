@@ -1,0 +1,17 @@
+Componentes del Entorno Servidor
+==================================
+
+1. Sistema Operativo:
+El sistema operativo (Windows, macOS, Linux) es la base que gestiona los recursos de hardware como memoria, procesador y almacenamiento. Permite que las aplicaciones se ejecuten y controla cómo se distribuyen los recursos entre los procesos. Sin un SO estable, el servidor no puede funcionar de manera confiable.
+
+2. Node.js:
+Node.js es el entorno de ejecución que permite ejecutar código JavaScript en el servidor. Proporciona acceso a funcionalidades del sistema operativo y bibliotecas para crear servidores web. Es la plataforma que interpreta y ejecuta el código de nuestra aplicación.
+
+3. Aplicación server.js:
+Es el código que define cómo responde el servidor a las solicitudes HTTP. Contiene las rutas (/) y (/estado) que generan respuestas específicas. Representa la lógica de negocio que se ejecuta en el servidor.
+
+4. Puerto:
+El puerto (3000) es una dirección virtual a través de la cual el servidor escucha solicitudes. Es como un canal de comunicación específico que permite a los clientes conectarse al servidor. Cada servicio puede usar un puerto diferente para evitar conflictos.
+
+5. Logs:
+Son registros de eventos y actividades que ocurren en el servidor, como mensajes de inicio, errores, y solicitudes recibidas. Los logs son esenciales para monitorear, depurar y entender qué está sucediendo en el servidor en tiempo real.
