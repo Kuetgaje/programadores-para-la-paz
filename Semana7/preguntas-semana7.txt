@@ -1,1 +1,17 @@
+PREGUNTAS DE SELECCIÓN MÚLTIPLE - SEMANA 7
 
+Pregunta 1: ¿Qué es un array en programación?
+Respuesta: B
+Explicación: Un array es una estructura que permite almacenar varios datos en una lista
+
+Pregunta 2: ¿Qué método HTTP se utiliza normalmente para consultar datos existentes?
+Respuesta: B
+Explicación: El método GET se utiliza para consultar y obtener datos existentes
+
+Pregunta 3: ¿Qué método HTTP se usa normalmente para agregar información nueva?
+Respuesta: B
+Explicación: El método POST se utiliza para enviar y agregar información nueva al servidor
+
+Pregunta 4: ¿Cuál es el propósito de una API en una aplicación?
+Respuesta: B
+Explicación: Una API permite que diferentes sistemas o aplicaciones intercambien información de forma estructurada

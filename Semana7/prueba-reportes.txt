@@ -1,0 +1,28 @@
+PRUEBA DE REPORTES - SEMANA 7
+
+QUÉ SUCEDE CUANDO CONSULTAS LOS REPORTES:
+
+Al consultar la ruta GET /reportes después de haber enviado datos con POST, el servidor responde con un array JSON que contiene todos los reportes registrados en memoria.
+
+Proceso:
+1. Se envía un reporte mediante POST /reportes con un JSON que contiene tipo y descripción
+2. El servidor recibe los datos y crea un objeto reporte con un ID único y los datos enviados
+3. El reporte se agrega al array 'reportes' usando push()
+4. El servidor responde confirmando el registro del reporte
+5. Cuando se consulta GET /reportes, el servidor devuelve el array completo con todos los reportes registrados
+
+Ejemplo de respuesta al consultar GET /reportes:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  },
+  {
+    "id": 2,
+    "tipo": "Ambiente",
+    "descripcion": "Acumulación de residuos en una zona comunitaria"
+  }
+]
+
+Importancia: Esto demuestra cómo una API permite persistir información temporalmente en memoria y luego consultarla, simulando un sistema de almacenamiento de datos básico.
