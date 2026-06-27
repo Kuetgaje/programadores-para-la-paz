@@ -1,0 +1,19 @@
+Petición POST a http://localhost:3000/registro
+Headers:
+Content-Type: application/json
+
+Body (JSON):
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Respuesta devuelta por el servidor:
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Explicación breve:
+El servidor responde con un objeto JSON que confirma que los datos fueron recibidos y devuelve los campos "nombre" y "mensaje" que se enviaron en la petición. Esto demuestra que el servidor está leyendo correctamente req.body gracias a express.json().

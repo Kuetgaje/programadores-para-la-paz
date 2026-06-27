@@ -1,0 +1,12 @@
+{
+  "name": "semana6",
+  "version": "1.0.0",
+  "description": "Servidor para la actividad Semana 6",
+  "main": "Semana6/server.js",
+  "scripts": {
+    "start": "node Semana6/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

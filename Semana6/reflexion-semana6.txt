@@ -1,0 +1,9 @@
+Es importante que las plataformas tecnológicas puedan recibir reportes o información enviada por los ciudadanos de forma estructurada porque facilita el procesamiento automático de los datos, reduciendo errores humanos y acelerando la respuesta institucional.
+
+Los datos estructurados (por ejemplo, en JSON) permiten validar la información, almacenarla de manera consistente y realizar búsquedas y análisis eficientes.
+
+Además, la estandarización favorece la interoperabilidad entre sistemas y organismos, lo que ayuda a coordinar acciones y compartir información.
+
+Con reportes estructurados se pueden priorizar incidencias, generar estadísticas y visualizar tendencias para la toma de decisiones informadas.
+
+Finalmente, la transparencia y trazabilidad mejoran, ya que cada reporte puede ser registrado, auditado y vinculado a respuestas concretas.
