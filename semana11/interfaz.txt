@@ -1,5 +1,4 @@
 DESCRIPCIÓN DE INTERFAZ BÁSICA
-==============================
 
 ESTRUCTURA GENERAL DE LA PLATAFORMA
 
