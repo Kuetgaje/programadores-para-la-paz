@@ -1,6 +1,5 @@
 DISEÑO DE FLUJO DE AUTOMATIZACIÓN
 Semana 10: n8n + Telegram para Veeduría Comunitaria
-================================================
 
 FLUJO: "Notificar coordinador cuando hay nuevo reporte"
 
@@ -19,29 +18,25 @@ Alternativa técnica:
 
 Formato del Mensaje:
 
----
 📋 NUEVO REPORTE REGISTRADO
+Tipo: [tipo_incidencia]
+Zona: [zona_general]
+Fecha: [fecha - hora]
+ID Reporte: [ID_UNICO]
 
-🔹 Tipo: [tipo_incidencia]
-📍 Zona: [zona_general]
-🕐 Fecha: [fecha - hora]
-🔗 ID Reporte: [ID_UNICO]
-
-⚡ Acción: Revisar sistema para detalles
+Acción: Revisar sistema para detalles
 ---
 
 Ejemplo Real:
 
----
 📋 NUEVO REPORTE REGISTRADO
 
-🔹 Tipo: Robo de servicios públicos
-📍 Zona: Barrio Centro - Cuadra 5
-🕐 Fecha: 2026-07-13 - 14:32
-🔗 ID Reporte: RPT-20260713-00145
+Tipo: Robo de servicios públicos
+Zona: Barrio Centro - Cuadra 5
+Fecha: 2026-07-13 - 14:32
+ID Reporte: RPT-20260713-00145
 
-⚡ Acción: Revisar sistema para detalles
----
+Acción: Revisar sistema para detalles
 
 ¿QUÉ INFORMACIÓN NO DEBERÍA ENVIARSE POR SEGURIDAD?
 
