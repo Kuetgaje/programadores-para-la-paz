@@ -1,0 +1,88 @@
+DESCRIPCIÓN DE INTERFAZ BÁSICA
+==============================
+
+ESTRUCTURA GENERAL DE LA PLATAFORMA
+
+La interfaz sería una aplicación web simple y clara dividida en las siguientes secciones:
+
+
+1. SECCIÓN DE NAVEGACIÓN (HEADER)
+---------------------------------
+- Logo de la plataforma "Programadores para la Paz"
+- Botón "Iniciar sesión" (para usuarios no autenticados)
+- Menú de usuario (para usuarios autenticados)
+- Botón "Cerrar sesión"
+
+
+2. VISTA PRINCIPAL - LISTA DE INICIATIVAS
+------------------------------------------
+La página principal muestra todas las iniciativas comunitarias disponibles en formato de tarjetas:
+
+Cada tarjeta de iniciativa contiene:
+- Título de la iniciativa
+- Descripción resumida (primeras líneas)
+- Categoría (etiqueta: Educación, Convivencia, Resolución de Conflictos, etc.)
+- Ubicación (zona o barrio)
+- Contador de apoyos (ej: "127 personas apoyan esta iniciativa")
+- Botón "Apoyo" para sumar apoyo (solo disponible si está autenticado)
+- Botón "Ver detalles" para ver información completa
+
+
+3. FORMULARIO PARA CREAR UNA NUEVA INICIATIVA
+----------------------------------------------
+Disponible solo para usuarios autenticados, con los campos:
+
+- Campo de texto: "Título de la iniciativa"
+- Área de texto: "Descripción detallada"
+- Selector: "Categoría" (dropdown con opciones)
+- Campo de texto: "Ubicación/Barrio"
+- Botón "Crear iniciativa"
+- Botón "Cancelar"
+
+El formulario valida que todos los campos estén completos antes de permitir el envío.
+
+
+4. VISTA DE DETALLES DE UNA INICIATIVA
+---------------------------------------
+Al hacer clic en "Ver detalles", se muestra:
+
+- Título completo
+- Descripción completa
+- Categoría y ubicación
+- Fecha de creación (ej: "Iniciada hace 15 días")
+- Contador grande de apoyos (ej: "127 personas apoyan")
+- Lista visual de tipos de apoyo (voluntarios, donaciones, difusión)
+- Botón prominente "Unirme a esta iniciativa" (si no lo ha hecho)
+- Botón "Dejar de apoyar" (si ya lo apoyo)
+- Sección de comentarios públicos (si aplica)
+
+
+5. PANEL DEL USUARIO (Protegido)
+---------------------------------
+Solo visible para usuarios autenticados:
+
+- Nombre del usuario (de usuario, no real)
+- Mis iniciativas (lista de iniciativas que he creado)
+- Mis apoyos (lista de iniciativas que apoyo)
+- Historial de participación
+- Opción para editar perfil
+- Opción para ver mis preferencias
+
+
+6. CONSIDERACIONES DE SEGURIDAD Y PRIVACIDAD
+---------------------------------------------
+- La interfaz NO muestra información personal sensible
+- Los apoyos se cuentan pero no se listan públicamente los nombres completos
+- Los comentarios pueden ser moderados
+- Las contraseñas se validan en el servidor, nunca se muestran en la interfaz
+- Los formularios usan HTTPS para proteger datos en tránsito
+- La interfaz es responsiva y accesible desde dispositivos móviles
+
+
+7. FLUJO DE USUARIO
+-------------------
+Sin autenticación:
+  Ver iniciativas públicas → Querer participar → Ser redirigido a login
+
+Con autenticación:
+  Ver iniciativas → Crear iniciativa → Apoyo → Ver mis participaciones

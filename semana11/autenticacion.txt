@@ -1,0 +1,39 @@
+AUTENTICACIÓN Y PROTECCIÓN DE DATOS
+===================================
+
+¿QUÉ ES EL LOGIN EN UNA APLICACIÓN?
+
+El login es el proceso mediante el cual un usuario se identifica en la aplicación
+proporcionando credenciales (usuario y contraseña). Este proceso permite verificar
+que la persona es quien dice ser antes de darle acceso a funciones y datos específicos.
+En una plataforma comunitaria, el login garantiza que solo usuarios registrados 
+puedan participar en iniciativas y acceder a información protegida.
+
+
+¿POR QUÉ ALGUNAS RUTAS DEBEN ESTAR PROTEGIDAS?
+
+Algunas rutas deben estar protegidas porque contienen información sensible o 
+permiten acciones que no deberían estar disponibles para cualquier persona.
+Por ejemplo, la ruta para crear una iniciativa debe estar protegida para evitar 
+que usuarios no autenticados publiquen contenido falso o malicioso. Las rutas 
+para ver historiales de participación, editar iniciativas propias, o gestionar 
+apoyos deben estar protegidas porque involucran datos personales y decisiones 
+de usuarios autenticados.
+
+
+¿QUÉ INFORMACIÓN NO DEBERÍA EXPONERSE PÚBLICAMENTE?
+
+Bajo ninguna circunstancia se deben exponer públicamente:
+- Contraseñas (nunca, en ningún formato)
+- Documentos de identidad (cédula, pasaporte)
+- Números de teléfono completos
+- Direcciones residenciales exactas
+- Direcciones de correo electrónico privadas
+- Tokens de autenticación o sesión
+- Claves de API o credenciales del sistema
+- Información financiera
+- Datos médicos o personales sensibles
+- Historial completo de participación de usuarios
+
+La plataforma debe mostrar información pública útil (iniciativas, objetivos comunitarios)
+minetras protege la privacidad e integridad de los datos de los ciudadanos.

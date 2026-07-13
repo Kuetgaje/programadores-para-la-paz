@@ -1,0 +1,55 @@
+MODELO DE DATOS - PLATAFORMA COMUNITARIA DE PAZ
+===============================================
+
+ENTIDAD 1: Iniciativa
+---------------------
+Campos principales:
+- id (identificador único)
+- titulo (nombre de la iniciativa)
+- descripcion (detalles de la iniciativa)
+- categoria (tipo de iniciativa: educación, convivencia, resolución de conflictos, etc.)
+- ubicacion (zona o barrio donde se desarrolla)
+- fecha_creacion (cuándo se registró la iniciativa)
+- estado (activa, completada, pausada)
+
+Propósito:
+Guardar las iniciativas comunitarias de paz que son visibles en la plataforma. 
+Permite que la comunidad conozca qué acciones se están llevando a cabo 
+para mejorar la convivencia y la paz en el territorio.
+
+
+ENTIDAD 2: Participante
+-----------------------
+Campos principales:
+- id (identificador único)
+- usuario (nombre o identificador del usuario - sin datos reales)
+- email (correo de contacto - ejemplo: usuario@ejemplo.com)
+- rol (ciudadano, organizador, moderador)
+- fecha_registro (cuándo se registró)
+- iniciativas_apoyadas (cantidad de iniciativas en las que participa)
+
+Propósito:
+Registrar a los participantes que se unen a las iniciativas comunitarias.
+Permite hacer seguimiento de la participación ciudadana y garantizar que 
+solo usuarios autenticados puedan acceder a funciones protegidas.
+
+
+ENTIDAD 3: Apoyo
+----------------
+Campos principales:
+- id (identificador único)
+- iniciativa_id (referencia a la iniciativa)
+- participante_id (referencia al participante)
+- fecha_apoyo (cuándo se registró el apoyo)
+- tipo_apoyo (voluntario, donación, difusión, etc.)
+
+Propósito:
+Registrar los apoyos que recibe cada iniciativa para hacer seguimiento 
+a la participación ciudadana y medir el impacto comunitario.
+
+
+RELACIONES:
+-----------
+- Un Participante puede apoyar múltiples Iniciativas
+- Una Iniciativa puede recibir apoyo de múltiples Participantes
+- Los Apoyos vinculan Iniciativas con Participantes
