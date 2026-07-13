@@ -1,5 +1,4 @@
 BACKLOG - HISTORIAS DE USUARIO
-Semana 10: Sistema de Veeduría Ciudadana Comunitaria
 
 HISTORIAS DE USUARIO (Ordenadas de mayor a menor prioridad)
 
