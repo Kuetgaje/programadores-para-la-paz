@@ -1,5 +1,4 @@
 AUTENTICACIÓN Y PROTECCIÓN DE DATOS
-===================================
 
 ¿QUÉ ES EL LOGIN EN UNA APLICACIÓN?
 
