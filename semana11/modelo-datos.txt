@@ -1,5 +1,4 @@
 MODELO DE DATOS - PLATAFORMA COMUNITARIA DE PAZ
-===============================================
 
 ENTIDAD 1: Iniciativa
 ---------------------
