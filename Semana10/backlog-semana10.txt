@@ -1,0 +1,57 @@
+BACKLOG - HISTORIAS DE USUARIO
+Semana 10: Sistema de Veeduría Ciudadana Comunitaria
+================================================
+
+HISTORIAS DE USUARIO (Ordenadas de mayor a menor prioridad)
+
+1. ALTA PRIORIDAD
+Como ciudadano quiero registrar una incidencia o reporte en la plataforma 
+para dejar evidencia documentada del problema observado en mi comunidad.
+
+Criterios de aceptación:
+- El formulario captura: tipo de incidencia, descripción, ubicación (genérica), fecha y hora
+- Se genera un ID único para cada reporte
+- El usuario recibe confirmación de registro
+- Los datos sensibles (nombre completo, teléfono exacto) NO se almacenan
+
+2. ALTA PRIORIDAD
+Como coordinador de veeduría quiero recibir una alerta en Telegram 
+para revisar rápidamente un nuevo reporte registrado sin esperar a consultar la plataforma.
+
+Criterios de aceptación:
+- Se envía mensaje automático a canal Telegram cuando hay nuevo reporte
+- El mensaje incluye: tipo de incidencia, zona general, fecha
+- El mensaje NO incluye datos personales del reportante
+- La notificación llega en menos de 2 minutos
+
+3. MEDIA PRIORIDAD
+Como miembro del equipo de seguimiento quiero consultar un resumen de reportes 
+para hacer seguimiento y análisis de patrones en la comunidad.
+
+Criterios de aceptación:
+- Ver total de reportes por tipo de incidencia
+- Ver distribución geográfica (zonas, no direcciones exactas)
+- Ver línea de tiempo de reportes
+- Exportar datos en CSV
+- Mantener privacidad de reportantes
+
+4. MEDIA PRIORIDAD
+Como ciudadano quiero ver el estado de mi reporte (pendiente, en revisión, resuelto)
+para saber si mi contribución está siendo considerada.
+
+Criterios de aceptación:
+- Consultar estado con ID de reporte
+- Recibir actualización en Telegram si cambió el estado
+- Ver historial de cambios
+- NO se revela identidad del reportante a otros usuarios
+
+5. BAJA PRIORIDAD
+Como gestor de datos quiero generar reportes mensuales de veeduría 
+para presentar avances a organizaciones y gobiernos locales.
+
+Criterios de aceptación:
+- Reporte con estadísticas agregadas (sin datos individuales)
+- Gráficos de tendencias
+- Resumen de zonas más críticas
+- Documento descargable en PDF
+- Información completamente anonimizada

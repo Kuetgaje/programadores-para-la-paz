@@ -1,0 +1,54 @@
+PLAN DE ITERACIÓN 1
+Semana 10: Primera Sprint de Desarrollo
+================================================
+
+¿QUÉ 2 TAREAS DEL BACKLOG HARÍAS PRIMERO?
+
+1. "Como ciudadano quiero registrar una incidencia en la plataforma"
+2. "Como coordinador quiero recibir una alerta en Telegram"
+
+¿POR QUÉ SON LAS MÁS IMPORTANTES?
+
+- Son la base del sistema: sin la capacidad de registrar reportes, no hay datos que procesar
+- La notificación en Telegram es el detonante de la acción (coordinador revisa rápidamente)
+- Juntas permiten completar el flujo básico: usuario reporta → coordinador notificado
+- Son relativamente simples de implementar en la primera iteración
+- Generan valor inmediato: el ciudadano ve su reporte registrado y el coordinador actúa rápido
+- Permiten validar todo el concepto antes de agregar complejidad
+- Son independientes de las otras historias, pueden desarrollarse en paralelo
+
+¿QUÉ SIGNIFICA QUE UNA TAREA ESTÉ "TERMINADA"?
+
+Definición de Terminado (Definition of Done - DoD) para esta iteración:
+
+1. FUNCIONAL
+   - El código ejecuta sin errores en entorno de prueba
+   - Todas las funciones descritas en la historia de usuario funcionan
+   - Los formularios capturan y almacenan datos correctamente
+   - Las notificaciones llegan a Telegram sin retrasos
+
+2. PROBADA
+   - Se ejecutaron pruebas manuales en el formulario (casos positivos y errores)
+   - Se verificó que las notificaciones llegan correctamente a Telegram
+   - Se probó con datos de prueba (SIN datos reales o sensibles)
+   - Se probaron limites: campos vacíos, caracteres especiales, etc.
+
+3. DOCUMENTADA Y REGISTRADA EN GIT
+   - Código con comentarios explicativos
+   - Commit claro con descripción de cambios
+   - README actualizado si es necesario
+   - Archivos de configuración de ejemplo (.env.example, no .env)
+
+4. SEGURA
+   - No captura datos sensibles innecesarios (nombres completos, documentos, teléfonos)
+   - Las claves de Telegram NO están en el código (van en .env)
+   - Los datos se validan antes de almacenar
+   - No se expone información de reportantes en las notificaciones
+
+5. LISTA PARA MOSTRAR
+   - Un compañero o usuario puede entender y usar la funcionalidad
+   - No hay mensajes de error confusos
+   - Las instrucciones son claras
+
+CRITERIO FINAL:
+No decimos "terminado" hasta que todas estas condiciones se cumplan.

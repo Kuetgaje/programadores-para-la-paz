@@ -1,0 +1,94 @@
+DISEÑO DE FLUJO DE AUTOMATIZACIÓN
+Semana 10: n8n + Telegram para Veeduría Comunitaria
+================================================
+
+FLUJO: "Notificar coordinador cuando hay nuevo reporte"
+
+¿QUÉ EVENTO ACTIVA EL FLUJO?
+
+Evento Disparador:
+- Se registra un nuevo reporte en la base de datos del sistema
+- El reporte cumple con criterios de validación (no vacío, campos básicos completos)
+- Se ejecuta cada vez que hay un INSERT en la tabla "reportes"
+
+Alternativa técnica:
+- Webhook HTTP que recibe POST cuando se crea un reporte
+- Parámetros esperados: tipo_incidencia, descripcion, zona, fecha
+
+¿QUÉ MENSAJE SE ENVIARÍA A TELEGRAM?
+
+Formato del Mensaje:
+
+---
+📋 NUEVO REPORTE REGISTRADO
+
+🔹 Tipo: [tipo_incidencia]
+📍 Zona: [zona_general]
+🕐 Fecha: [fecha - hora]
+🔗 ID Reporte: [ID_UNICO]
+
+⚡ Acción: Revisar sistema para detalles
+---
+
+Ejemplo Real:
+
+---
+📋 NUEVO REPORTE REGISTRADO
+
+🔹 Tipo: Robo de servicios públicos
+📍 Zona: Barrio Centro - Cuadra 5
+🕐 Fecha: 2026-07-13 - 14:32
+🔗 ID Reporte: RPT-20260713-00145
+
+⚡ Acción: Revisar sistema para detalles
+---
+
+¿QUÉ INFORMACIÓN NO DEBERÍA ENVIARSE POR SEGURIDAD?
+
+DATA SENSITIVA - NUNCA ENVIAR A TELEGRAM:
+
+1. IDENTIDAD DEL REPORTANTE
+   ❌ Nombre completo
+   ❌ Cédula / Documento de identidad
+   ❌ Teléfono personal
+   ❌ Correo electrónico
+   ❌ Dirección personal
+   ❌ Foto o descripción física
+
+2. UBICACIÓN EXACTA
+   ❌ Dirección completa
+   ❌ Coordenadas GPS precisas
+   ❌ Número de edificio exacto
+   ✅ Zona general (Barrio, Cuadra aproximada) - PERMITIDO
+
+3. DETALLES SENSIBLES
+   ❌ Nombres de personas mencionadas en reporte
+   ❌ Información sobre investigaciones en curso
+   ❌ Detalles técnicos de delitos (modus operandi)
+   ❌ Datos bancarios o financieros
+
+4. CREDENCIALES Y CLAVES
+   ❌ Tokens de API
+   ❌ Contraseñas
+   ❌ Claves de acceso
+   ❌ URLs de admin
+
+PARADIGMA DE SEGURIDAD:
+"Si un dato podría identificar, localizar, contactar o perjudicar 
+al reportante, no va a Telegram. Solo metadata clasificada y agregada."
+
+FLUJO EN n8n (Pasos):
+
+1. Trigger: Recibir webhook de nuevo reporte
+2. Validación: Verificar que los campos requeridos existan
+3. Formato: Construir mensaje de notificación
+4. Envío: Enviar mensaje a canal Telegram del equipo
+5. Log: Registrar que la notificación se envió
+6. Error: Si falla, registrar en log (no silenciar errores)
+
+VENTAJAS DE ESTA AUTOMATIZACIÓN:
+✅ Respuesta rápida del equipo de coordinación
+✅ No se pierden reportes por falta de revisión
+✅ Reduce carga manual de verificación
+✅ Mantiene privacidad del reportante
+✅ Escalable a múltiples canales (Email, SMS) en el futuro

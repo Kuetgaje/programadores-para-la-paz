@@ -1,1 +1,34 @@
+RESPUESTAS - PREGUNTAS DE SELECCIÓN MÚLTIPLE
+Semana 10: Metodologías Ágiles, Automatización y Participación Ciudadana
+================================================
 
+PREGUNTA 1 - ¿Qué es un backlog en un proyecto de software?
+Respuesta: B) Una lista priorizada de tareas o funcionalidades por desarrollar.
+
+Justificación:
+Un backlog es una lista ordenada de todas las tareas, historias de usuario y funcionalidades 
+que deben desarrollarse en un proyecto. Se prioriza según importancia y urgencia para guiar 
+el trabajo del equipo en cada iteración.
+
+PREGUNTA 2 - ¿Qué describe mejor una historia de usuario?
+Respuesta: B) Una forma breve de expresar qué necesita un usuario y para qué lo necesita.
+
+Justificación:
+Una historia de usuario sigue el formato: "Como [rol] quiero [acción] para [beneficio]". 
+Es una forma ágil de capturar requisitos centrada en la perspectiva del usuario y su valor.
+
+PREGUNTA 3 - ¿Cuál es el propósito principal de n8n en esta semana?
+Respuesta: B) Automatizar tareas repetitivas y notificaciones de seguimiento no sensibles.
+
+Justificación:
+n8n es una plataforma de automatización de flujos de trabajo que permite conectar múltiples 
+aplicaciones sin código. En este caso, se usa para automatizar notificaciones y seguimiento 
+manteniendo la seguridad de datos sensibles.
+
+PREGUNTA 4 - ¿Para qué puede servir Telegram en esta semana?
+Respuesta: B) Como canal de coordinación, convocatoria y notificación comunitaria.
+
+Justificación:
+Telegram es una herramienta de comunicación inmediata útil para notificaciones, coordinación 
+en tiempo real y convocatoria comunitaria. Permite mantener a los equipos y ciudadanos 
+informados de actualizaciones sin sensibilidad de datos.
