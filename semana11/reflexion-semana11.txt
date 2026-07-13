@@ -1,19 +1,15 @@
-REFLEXIÓN - ¿POR QUÉ UNA PLATAFORMA DE PARTICIPACIÓN CIUDADANA REQUIERE 
-BASES DE DATOS, AUTENTICACIÓN Y PROTECCIÓN DE INFORMACIÓN?
-==================================================================
+REFLEXIÓN 
 
 Una plataforma tecnológica que promueve participación ciudadana debe tener una base 
 de datos porque necesita almacenar, organizar y recuperar información de manera 
 confiable y eficiente. Sin una base de datos, sería imposible guardar las iniciativas 
 comunitarias, los datos de participantes o el registro de apoyos. La base de datos 
 permite que la información persista en el tiempo y que múltiples usuarios accedan 
-simultáneamente sin perder datos.
-
-La autenticación de usuarios es fundamental porque establece un sistema de confianza 
-y responsabilidad. Solo usuarios verificados pueden crear iniciativas o participar 
-activamente, lo que evita spam, contenido malicioso o manipulación de la plataforma. 
-La autenticación también permite hacer seguimiento de quién participa, asignando 
-responsabilidad civil a las acciones dentro de la plataforma.
+simultáneamente sin perder datos.La autenticación de usuarios es fundamental porque 
+establece un sistema de confianza y responsabilidad. Solo usuarios verificados pueden 
+crear iniciativas o participar activamente, lo que evita spam, contenido malicioso o 
+manipulación de la plataforma. La autenticación también permite hacer seguimiento de 
+quién participa, asignando  responsabilidad civil a las acciones dentro de la plataforma.
 
 La protección de información es crítica porque una plataforma ciudadana maneja datos 
 personales y sensibles de la comunidad. Si esta información se expone, se pone en riesgo 
