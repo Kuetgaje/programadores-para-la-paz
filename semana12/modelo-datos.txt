@@ -1,0 +1,13 @@
+Entidad: Causa
+- id: identificador único de la causa
+- titulo: título corto y descriptivo
+- descripcion: explicación de la causa
+- fecha: fecha de creación
+
+Entidad: Apoyo
+- id: identificador único del apoyo
+- causa_id: referencia a la causa apoyada (foreign key)
+- nombre: nombre o alias del ciudadano que apoya
+- fecha: fecha en que se registró el apoyo
+
+Descripción breve: La entidad Causa guarda la información principal de cada petición; la entidad Apoyo registra cada persona que muestra su respaldo, vinculada a una causa por causa_id. Con esto se puede contar apoyos y generar la lista para el documento.

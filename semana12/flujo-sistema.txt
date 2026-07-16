@@ -1,0 +1,6 @@
+1. Un ciudadano crea una causa a través de un formulario en la plataforma.
+2. La causa se valida y queda registrada en la base de datos con su información básica.
+3. Otros ciudadanos ven la causa y hacen clic para apoyar, registrando solo datos mínimos (nombre y fecha o un alias).
+4. El sistema contabiliza y muestra el número de apoyos en la página de la causa.
+5. Cuando se alcanza un umbral o al solicitarlo, el sistema genera automáticamente un documento PDF con la petición y la lista de apoyos.
+6. Opcionalmente, se notifica al administrador o a un canal de Telegram/n8n para revisar o publicar la petición.

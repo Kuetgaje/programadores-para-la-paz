@@ -1,0 +1,8 @@
+Durante el curso aprendí que la tecnología puede ser una herramienta poderosa para fortalecer la participación ciudadana y la organización comunitaria.
+Aprendí a diseñar soluciones sencillas que conectan frontend, backend y bases de datos para facilitar la recolección de apoyos.
+Comprendí la importancia de generar documentos formales (como PDFs) para convertir la voluntad colectiva en evidencia tangible.
+También aprendí a automatizar notificaciones y tareas repetitivas usando herramientas como n8n o Telegram para mantener activa la coordinación.
+Una lección clave fue minimizar y proteger los datos personales, diseñando sistemas que solo recopilen lo estrictamente necesario.
+Además, vimos cómo una interfaz simple y procesos claros aumentan la confianza y la participación de la comunidad.
+La práctica de integrar componentes permitió entender las dependencias entre servicios y la necesidad de pruebas.
+Finalmente, me quedó claro que la tecnología debe servir a objetivos sociales claros y ser accesible para las personas a las que pretende ayudar.

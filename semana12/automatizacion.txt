@@ -1,0 +1,9 @@
+Evento que activa la automatización: Nuevo apoyo registrado en una causa o nueva causa creada.
+
+Mensaje a enviar: "Nueva actividad en Petición en 3 Clics: se ha registrado un nuevo apoyo en la causa '<titulo>' (id: <id_causa>)." (o para nueva causa: "Se ha creado la causa '<titulo>' (id: <id_causa>)")
+
+Canal: Notificación a un canal de Telegram o flujo en n8n que envía el mensaje al grupo de administradores.
+
+Información que NO debe enviarse por seguridad: cédulas, números de teléfono, direcciones, comentarios sensibles, datos personales identificables completos o cualquier documento adjunto que contenga información privada.
+
+Detalles extra: n8n puede recibir el webhook desde el backend al crear el apoyo/causa y formatear el mensaje; Telegram mostrará solo datos públicos mínimos (título de la causa, id, número total de apoyos) para proteger la privacidad.
